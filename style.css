@@ -1,0 +1,502 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+.cont_um {
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+video {
+  filter: blur(8px);
+}
+
+.continer {
+  background-color: rgba(0, 0, 0, 0.41);
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
+  z-index: 0;
+  color: #fff;
+  position: absolute;
+  top: calc(50% - 200px);
+  right: calc(50% - 400px);
+  width: 800px;
+  height: 400px;
+  display: flex;
+}
+
+.continer img {
+  margin-top: 50px;
+}
+
+.continer div {
+  margin-top: 20px;
+  width: 50%;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: justify;
+  text-indent: 2em;
+  word-wrap: break-word;
+  padding: 0 30px;
+}
+
+.sass {
+  color: darkorchid;
+}
+
+.bootstrap {
+  color: darkslateblue;
+}
+
+.tailwind {
+  color: #448456;
+}
+
+.j {
+  color: gold;
+}
+
+.t {
+  color: blue;
+}
+
+.react {
+  color: aqua;
+}
+
+.java {
+  color: #ff1a1a;
+}
+
+.spring {
+  color: #92e3a9;
+}
+
+.php {
+  color: cornflowerblue;
+}
+
+.mysql {
+  color: darkcyan;
+}
+
+.mongo {
+  color: forestgreen;
+}
+
+a {
+  text-decoration: none;
+}
+
+.continer div > div {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+ion-icon {
+  height: 30px;
+  width: 30px;
+  color: #fff;
+}
+
+ion-icon[name="logo-github"]:hover {
+  color: rgb(25, 25, 25);
+  filter: drop-shadow(0 0 5px rgb(255, 255, 255));
+}
+
+ion-icon[name="logo-linkedin"]:hover {
+  color: rgb(34, 107, 241);
+}
+
+ion-icon[name="logo-whatsapp"]:hover {
+  color: rgb(37, 211, 102);
+}
+
+ion-icon[name="logo-nodejs"]:hover {
+  color: rgb(61, 149, 97);
+}
+
+ion-icon[name="logo-react"]:hover {
+  color: #61dafb;
+}
+
+ion-icon[name="logo-discord"]:hover {
+  color: rgb(55, 28, 132);
+}
+
+ion-icon[name="logo-codepen"]:hover {
+  color: rgb(200, 142, 142);
+}
+
+ion-icon[name="logo-firebase"]:hover {
+  color: rgb(255, 157, 0);
+}
+
+ion-icon[name="mail"]:hover {
+  color: rgb(117, 0, 0);
+}
+
+.devicon-typescript-plain:hover {
+  color: rgb(0, 0, 255);
+}
+
+.devicon-spring-original:hover {
+  color: #448456;
+}
+
+.devicon-javascript-plain:hover {
+  color: gold;
+}
+
+/* pagina dois */
+.cont_dois {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.cont_dois p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.cont_dois h2 {
+  padding-top: 10px;
+}
+
+.head_do_cont_dois {
+  color: #fff;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head_do_cont_dois p {
+  text-indent: 0;
+}
+
+/* .head_do_cont_dois h1 {
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.head_do_cont_dois p {
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+} */
+
+.cont_cards {
+  padding: 30px;
+  padding-top: 0;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: #41414161;
+  backdrop-filter: blur(50px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  z-index: 1;
+  color: #fff;
+  position: relative;
+  width: 800px;
+  height: 400px;
+  display: flex;
+}
+
+.card .img {
+  background-image: url(src/macbook-pro-and-iphone-15-pro-mockup-66111a9dd0f97881012f9f9c-@2x.png);
+  background-position: center;
+  background-size: cover;
+  min-width: 400px;
+  height: 400px;
+}
+
+.cont_descprition {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.link_reposit_tec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.link_reposit div {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.tec i {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+}
+
+.tec div {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.fi-brands-php:hover {
+  color: rgb(55, 28, 132);
+}
+
+ion-icon[name="logo-laravel"]:hover {
+  color: rgb(117, 0, 0);
+}
+
+ion-icon[name="desktop-outline"]:hover {
+  color: rgb(117, 0, 0);
+}
+
+.fi-brands-js:hover {
+  background-color: gold;
+}
+
+/* terceira página */
+.cont_tres,
+.div_tres {
+  width: 100%;
+  height: auto;
+  padding: 10vh 0;
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 280px;
+}
+
+.div_tres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.div_email {
+  background: #41414161;
+  backdrop-filter: blur(50px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 20px 20px 50px rgba(0, 255, 119, 0.323);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-end;
+}
+
+.form input {
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 20px;
+  width: 100%;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #92e3a9;
+}
+
+.form input[name="mensagem"] {
+  height: 150px;
+  display: flex;
+}
+
+.form input[name="mensagem"]::placeholder {
+  position: absolute;
+  top: 10px;
+}
+
+.form textarea {
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 20px;
+  resize: none;
+  outline: none;
+}
+
+textarea:focus {
+  border: 3px solid #92e3a9;
+}
+
+.form button {
+  background-color: #92e3a9;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 10px;
+  width: 200px;
+  transition: ease-out 0.5s;
+  border: 3px solid #92e3a9;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #92e3a9;
+  border: 3px solid #92e3a9;
+  box-shadow: inset 0 100px 0 0 #ffffff;
+}
+
+/* scrool */
+
+html ::-webkit-scrollbar {
+  width: 20px;
+  background: #000000;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  border: 4px solid #000000;
+  background: #ffffff;
+}
+
+/* fundo */
+
+html ::-webkit-scrollbar-track {
+  border-radius: 50px;
+  background: #000000;
+}
+
+/* html {
+    scrollbar-color: fff 000;
+} */
+
+/* footer */
+
+footer {
+  color: #fff;
+}
+
+footer p,
+footer a {
+  color: #fff;
+  text-indent: 10px;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* CSS btns */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
