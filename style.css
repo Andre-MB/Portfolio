@@ -233,7 +233,14 @@ ion-icon[name="mail"]:hover {
 }
 
 .card .img {
-  background-image: url(src/macbook-pro-and-iphone-15-pro-mockup-66111a9dd0f97881012f9f9c-@2x.png);
+  /* background-image: url(src/macbook-pro-and-iphone-15-pro-mockup-66111a9dd0f97881012f9f9c-@2x.png); */
+  background-position: center;
+  background-size: cover;
+  min-width: 400px;
+  height: 400px;
+}
+
+.card img {
   background-position: center;
   background-size: cover;
   min-width: 400px;
