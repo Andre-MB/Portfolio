@@ -246,12 +246,12 @@ ion-icon[name="mail"]:hover {
   height: 400px;
 }
 
-.card .iphone16 {
+/* .card .iphone16 {
   background-position: center;
   background-size: cover;
   min-width: 300px;
   height: 300px;
-}
+} */
 
 .cont_descprition {
   width: 49%;
