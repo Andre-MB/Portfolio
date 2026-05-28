@@ -166,6 +166,14 @@ ion-icon[name="mail"]:hover {
   color: gold;
 }
 
+i[class="devicon-nextjs-plain"]:hover {
+  color: #000000;
+}
+
+i[class="devicon-dot-net-plain-wordmark"]:hover {
+  color: #512bd4;
+}
+
 /* pagina dois */
 .cont_dois {
   width: 100%;
@@ -173,11 +181,12 @@ ion-icon[name="mail"]:hover {
 }
 
 .cont_dois p {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .cont_dois h2 {
   padding-top: 10px;
+  font-size: 1.3em;
 }
 
 .head_do_cont_dois {
@@ -232,14 +241,14 @@ ion-icon[name="mail"]:hover {
   display: flex;
 }
 
-.card .img {
-  background-position: center;
-  background-size: cover;
-  min-width: 400px;
+.img img {
+  width: 500px;
   height: 400px;
 }
 
 .card img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   background-position: center;
   background-size: cover;
   min-width: 400px;
